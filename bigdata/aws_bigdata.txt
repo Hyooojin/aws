@@ -1,0 +1,22 @@
+https://github.com/awskrug/aws-serverless-workshops/tree/master/DataProcessing
+
+iam - AdministratorAccess - password
+AKIAIA63BHCHBF27K77Q
+6l+bWZ6ZLUee629tyCP0PadYjMWjnY1vGM43qWSz
+
+arn:aws:s3:::wildrydes-uploads-hyooo/*
+
+
+dynamicDB
+Amazon Resource Name (ARN)	arn:aws:dynamodb:us-east-1:772002095531:table/UnicornSensorData
+
+exports.handler = (event, context, callback) => {
+    // TODO implement
+    callback(null, 'Hello from Lambda');
+};
+
+aws s3 cp s3://wildrydes-data-processing/data/shadowfax-2016-02-12.json s3://wildrydes-uploads-hyooo
+
+
+github
+https://github.com/awskrug/aws-serverless-workshops/tree/master/DataProcessing/kinesis-clients/src
